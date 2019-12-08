@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SteFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <EditText
+               android:id="@+id/edit_ste"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="ste"/>
+           <EditText
+
+               android:id="@+id/edit_steAdresse"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="adresse"/>
+           <EditText
+
+               android:id="@+id/edit_steVille"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="ville"/>
+           <EditText
+               android:id="@+id/edit_steFix"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="fix"/>
+           <EditText
+               android:id="@+id/edit_steFax"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="faxe"/>
+           <EditText
+               android:id="@+id/edit_Ice"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="ice"/>
+           <EditText
+               android:id="@+id/edit_steRc"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="rc"/>
+           <EditText
+               android:id="@+id/edit_steCNSS"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="cnss"/>
+           <EditText
+               android:id="@+id/edit_stePatente"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="patente"/>
+           <Button
+               android:id="@+id/btn_save_ste"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="save"/>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</FrameLayout>
